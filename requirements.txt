@@ -1,0 +1,4 @@
+# The simulator itself needs only the Python standard library.
+# Only tools/make_window.py needs these:
+pandas
+pyarrow

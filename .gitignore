@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Market data and run outputs: never commit these
+data/
+results/
+*.csv
+*.csv.gz
+*.parquet
+*.ndjson
+*.ndjson.gz
+*.log
+*.html
+
+# Scratch and backups
+*.bak
+scratch/
+*.tmp
+STOP
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
